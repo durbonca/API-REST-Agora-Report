@@ -6,31 +6,31 @@ api for agora report. getting data of sales of the day
 
 Datos que se pueden tratar en agora:
 
-▪Series: series
+* Series: series
 
-▪Customers: clientes
+* Customers: clientes
 
-▪Users: usuarios
+* Users: usuarios
 
-▪Vats: tipos de impuestos
+* Vats: tipos de impuestos
 
-▪PaymentMethods: formas de pago
+* PaymentMethods: formas de pago
 
-▪PriceLists: tarifas
+* PriceLists: tarifas
 
-▪SaleCenters: centros de venta
+* SaleCenters: centros de venta
 
-▪Families: familias
+* Families: familias
 
-▪Products: productos
+* Products: productos
 
-▪Menus: menús
+* Menus: menús
 
-▪Offers: promociones
+* Offers: promociones
 
-▪Warehouses: almacenes
+* Warehouses: almacenes
 
-▪Stocks: stocks actuales
+* Stocks: stocks actuales
 
 
 
@@ -39,8 +39,7 @@ Datos que se pueden tratar en agora:
 
 JSON:
 
-`
-
+```
 {
   "Series": 
     { "BasicInvoice": 
@@ -69,21 +68,18 @@ JSON:
    }
 }
 
-`
+```
 
 Todas las series son opcionales, si no incluye una serie, no será modificada en Ágora.Las series que puede indicar son:
 
-▪BasicInvoice: facturas simplicadas.
+* BasicInvoice: facturas simplicadas.
 
-▪StandardInvoice: facturas normales.
+* StandardInvoice: facturas normales.
 
-▪BasicRefund: facturas simplificadas de devolución.
+* BasicRefund: facturas simplificadas de devolución.
 
-▪StandardRefund: facturas de devolución normales.
+* StandardRefund: facturas de devolución normales.
 
-▪DeliveryNote: albaranes/cargos en cuenta.
+* DeliveryNote: albaranes/cargos en cuenta.
 
-▪SalesOrder: pedidos/reservas.
-
-
-
+* SalesOrder: pedidos/reservas.

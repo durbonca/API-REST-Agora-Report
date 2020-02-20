@@ -1,4 +1,5 @@
 # API-REST-Agora-Report
+
 api for agora report. getting data of sales of the day
 
 
@@ -38,7 +39,7 @@ Datos que se pueden tratar en agora:
 
 JSON:
 
-<code>
+`
 
 {
   "Series": 
@@ -68,13 +69,21 @@ JSON:
    }
 }
 
-</code>
+`
 
 Todas las series son opcionales, si no incluye una serie, no será modificada en Ágora.Las series que puede indicar son:
 
 ▪BasicInvoice: facturas simplicadas.
+
 ▪StandardInvoice: facturas normales.
+
 ▪BasicRefund: facturas simplificadas de devolución.
+
 ▪StandardRefund: facturas de devolución normales.
+
 ▪DeliveryNote: albaranes/cargos en cuenta.
+
 ▪SalesOrder: pedidos/reservas.
+
+
+
